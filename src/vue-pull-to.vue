@@ -74,11 +74,11 @@
       },
       topBlockHeight: {
         type: Number,
-        default: 50
+        default: 20
       },
       bottomBlockHeight: {
         type: Number,
-        default: 50
+        default: 20
       },
       wrapperHeight: {
         type: String,
