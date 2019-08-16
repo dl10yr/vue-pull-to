@@ -485,24 +485,24 @@ function create(prototype, properties) {
 }
 // CONCATENATED MODULE: ./src/config.js
 var TOP_DEFAULT_CONFIG = {
-  pullText: '下拉刷新',
-  triggerText: '释放更新',
-  loadingText: '加载中...',
-  doneText: '加载完成',
-  failText: '加载失败',
+  pullText: 'ロードする？',
+  triggerText: 'ロードする',
+  loadingText: 'ロード中...',
+  doneText: 'ロード完了',
+  failText: 'ロード失敗',
   loadedStayTime: 400,
-  stayDistance: 50,
-  triggerDistance: 70
+  stayDistance: 20,
+  triggerDistance: 40
 };
 var BOTTOM_DEFAULT_CONFIG = {
-  pullText: '上拉加载',
-  triggerText: '释放更新',
-  loadingText: '加载中...',
-  doneText: '加载完成',
-  failText: '加载失败',
+  pullText: 'ロードする？',
+  triggerText: 'ロードする',
+  loadingText: 'ロード中...',
+  doneText: 'ロード完了',
+  failText: 'ロード失敗',
   loadedStayTime: 400,
-  stayDistance: 50,
-  triggerDistance: 70
+  stayDistance: 20,
+  triggerDistance: 40
 };
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/vue-pull-to.vue?vue&type=script&lang=js&
